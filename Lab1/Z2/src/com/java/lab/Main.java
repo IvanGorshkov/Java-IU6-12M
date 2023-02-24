@@ -4,7 +4,7 @@ class Hello {
     public static void welcomeWith(String[] args) {
         System.out.println("Oh, WELCOME!");
         for (String arg: args) {
-            System.out.println(arg + "");
+            System.out.println(arg);
         }
     }
 }
